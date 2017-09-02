@@ -67,6 +67,6 @@ while key != 27:                                                   # the game wi
     else:    
         last = snake.pop()                                        
         win.addch(last[0], last[1], ' ')
-    win.addch(snake[0][0], snake[0][1], '-')
+    win.addch(snake[0][0], snake[0][1], 'AYAN')
     
 curses.endwin()
